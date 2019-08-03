@@ -1,0 +1,25 @@
+{
+  "name": "ll-node-call-mac",
+  "version": "1.0.0",
+  "description": "A Node x-callback-url client for bi-directional communication with x-callback-url enabled macOS applications.",
+  "keywords": [
+    "node",
+    "call",
+    "mac",
+    "X-Callback-URLs"
+  ],
+  "author": "lulinglm",
+  "license": "ISC",
+  "scripts": {
+    "test": "mocha"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "promised-exec": "^1.0.1",
+    "querystring": "^0.2.0"
+  },
+  "deprecated": false,
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
